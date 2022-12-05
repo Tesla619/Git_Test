@@ -8,7 +8,7 @@ int main()
 {
     const double pi = 3.141592653589793238462;
     const double amplitude = 0.5f;
-    const double offset = 65535/2;
+    const double offset = 32767.5f;//65535/2;
     double rads = 0.0;
     uint16_t sample = 0;
     
